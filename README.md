@@ -21,7 +21,7 @@ In this analysis, we will review the first dataset of outcomes based on launch d
 The majority of these campaigns did come from the US at 900, with the next largest from Great Britain at 353.  Regardless, they both averaged relatively similarly and had the biggest impact on the given data displayed in Chart 2.
 
 		**Chart 2**: "Theater Ouctomes Based on Launch Date"
-			![Theater_Outcomes_vs_Launch](kickstarter-analysis/resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](resources/Theater_Outcomes_vs_Launch.png)
 
 In Chart 2, we can see the highest amount of successful campaigns launched in the summer months starting in May and progressively tapering by September.  It is noted that "Fever" launched in June and with further analysis, we have to take a look at another dataset of outcomes based on goals to see if there were any identifiable contributing factors on what otherwise is a great time period to launch a campaign.  In order to get the data needed another formula was required to count the number of successful, failed, and canceled plays displayed in the following Chart 3.
 
@@ -35,12 +35,12 @@ In Chart 2, we can see the highest amount of successful campaigns launched in th
 
 A range of goals was created that started with 1,000 or less, and increased by increments of 5,000 until we came to 50,000 or more.  The counts were collected per range and then percentages were assigned to give a clearer picture of successful campaign goal ranges displayed in Chart 4.
 
-		**Chart 4**: "Theater Ouctomes Based on Launch Date"
-			<INSERT IMAGE - OUTCOMES VS GOALS>
+		**Chart 4**: "Ouctomes Based on Goals"
+![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 Chart 4 gives a very clear indicator that campaigns with goals of 5,000 or less were the most successful, and going beyond that especially 15,000 proved to be unfavorable.  However, there is an anomaly in the goal range of 35,000 to 40,000 with a decent measure of success.  The sample amount collected in that range was 6, compared to a sample collection of 785 in the Less than 1,000 to 5,000 range.  With the very small amount of samples in the higher range, it is advisable to err on the side of it being an outlier and not a clear indicator of success.
 
-# !!!Need to complete in the morning | Also Pictures in this README!!!
+# !!!Need to complete in the morning | ~~Also Pictures in this README~~!!!
 
 #### Challenges
 
