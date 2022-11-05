@@ -24,7 +24,7 @@ The majority of these campaigns did come from the US at 900, with the next large
 **Image 2**: "Theater Ouctomes Based on Launch Date"
 ![Theater_Outcomes_vs_Launch](resources/Theater_Outcomes_vs_Launch.png)
 
-In Image 2, we can see the highest amount of successful campaigns launched in the summer months starting in May and progressively tapering by September.  It is noted that "Fever" launched in June and with further analysis, we have to take a look at another dataset of outcomes based on pledge goals to see if there were any identifiable contributing factors on what otherwise is a great time period to launch a campaign.  In order to get the data needed another formula was required to count the number of successful, failed, and canceled plays displayed in the following Image 3.
+In Image 2, we can see the highest amount of successful campaigns launched in the summer months starting in May and progressively tapering by September.  It is noted that *Fever* launched in June and with further analysis, we have to take a look at another dataset of outcomes based on pledge goals to see if there were any identifiable contributing factors on what otherwise is a great time period to launch a campaign.  In order to get the data needed another formula was required to count the number of successful, failed, and canceled plays displayed in the following Image 3.
 
 **Image 3**: "Excel Formula COUNTIFS()"
 	
@@ -40,27 +40,27 @@ A range of goals was created that started with 1,000 or less, and increased by i
 **Image 4**: "Ouctomes Based on Goals"
 ![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
-Image 4 gives a very clear indicator that campaigns with pledge goals of 5,000 or less were the most successful, and going beyond that especially 15,000 trended in unfavorable risks.  However, there is an anomaly in the goal range of 35,000 to 40,000 with a decent measure of success.  The sample amount collected in that range was 6, compared to a sample collection of 785 in the Less than 1,000 to 5,000 range.  With the very small amount of samples in the higher range, it is advisable to err on the side of it being an outlier and not a clear indicator of success.
-
-# !!!Need to complete in the morning | ~~Also Pictures in this README~~!!!
+Image 4 gives a very clear indicator that campaigns with pledge goals of 5,000 or less were the most successful, and going beyond that especially 15,000 trended in unfavorable risks.  However, there is an anomaly in the goal range of 35,000 to 40,000 with a decent measure of success.  The sample amount collected in that range was 6, compared to a sample collection of 785 in the Less than 1,000 to 5,000 range.  With the very small amount of samples in the higher range, it is advisable to err on the side of it being an outlier and not a clear indicator of success.  *Fever* had a pledged goal of 2,885 which is within very tolerable limits for success.  After reviewing other pieces of data, it was noted that the campaigns that were successful had on average higher amounts of backers compared to those did not meet the pledged goals.
 
 #### Challenges
 
+I did run into a few challenges in the "Module 1 Challenge".  In deliverable 1, as I was creating the pivot table and inputting the rows field w/ date created conversion I was overcomplicating the table dataset by trying to change field values.  All I simply had to do was remove the auto-populated Years and Quarters from the Rows field and it left all the months with the counts of all years already included.  In deliverable 2, the formula **COUNTIFS()** through me for a loop at the beginning as I was trying to piece the logic.  I took the advice from the instructor during the live lesson by getting an item to literally talk to as a sounding board or better known as rubberducking.  Granted there was still a bit of trial and error, many ctrl-z's, and then suddenly the data started to match and the logic started to click in my brain.  In deliverable 3, I got caught up on adding an image to the README.  I had tabbed the line for the image to help organize the flow of the report, but in doing so it inadvertently prevents the image from populating regardless if the link or markdowns are correct.  I also noticed that my **bolded** terms also did not work and I just played around until I realized that for the images to insert correctly and the bold to work those lines cannot be tabbed.
+
 ### Results
 
-## Outcomes based on launch date chart.
+#### Two Conclusions about the Theater Outcomes by Launch Date
 
-#### Conclusion One
-#### Conclusion Two
+1. The very first data point that draws the eye is the overall amount of successful theater outcomes in the month of May and into the summer months.  This creates an appealing case of what launch dates are the best.  When viewing the chart, the visual shows the winter months as being the least successful in the overall count.
+1. When viewing the line chart and with the way the data is structured it can be easily interpreted as a percentage measurement for a reader if they do not strictly understand that it's measuring overall counts per month through a range of data collected over a period of years.
 
-#### *Figure 1*
+#### Conclusion about the Outcomes Based on Goals
 
-## Outcomes based on goals chart.
+1. Immediately in the line graph in the upper range of pledged goals, we see a measure of success, but there is not enough of a sample population compared to the lower ranges for normal distribution analysis.  However, goals from 'Less than 1000' and '1000 to 4999' proved to be the most successful.
 
-#### Conclusion
+#### Limitations of the Dataset
 
-#### *Figure 2*
+The limitations of this dataset were with the 'Outcomes Based on Goals', as the goal increments went higher the potential for having data skewed also increased because of the overall sample size.  Given there is a great amount of data in the "Kickstarter_Challenge", as we narrowed the filters the total counts were also reduced.  Even though this is normal and the reality that theater plays will rarely reach those higher pledge goals, a strategic way to present the visual data may be to cap the incremental limit from '50,000 to more' to a lower threshold to account for any outliers and in the visual interpretation of the chart.
 
-## Limitations of the dataset
-### Recommended tables or graphs
+#### Recommended tables or graphs
 
+After further investigation of just Louise's play *Fever* as an accounting point for the origin of this analysis, another dataset shown such as the average amount of backers may help illustrate further how other campaigns fared on being successful or not.  In the 'Theater Outcomes by Launch Date' I was using percentages as another method of trying to understand what months were best to launch in and it gave an interesting viewpoint compared to just total counts.  In the 'Outcomes Based on Goals' I stopped from '50,000 to more' at 35,000 to more and it helped in guiding the visual component of a significant degree of success from lower set goals compared to higher ones while incorporating the outlier in the data.  The revised charts can be seen in the attached Excel file.
