@@ -21,7 +21,7 @@ In this analysis, we will review the first dataset of outcomes based on launch d
 The majority of these campaigns did come from the US at 900, with the next largest from Great Britain at 353.  Regardless, they both averaged relatively similarly and had the biggest impact on the given data displayed in Chart 2.
 
 		**Chart 2**: "Theater Ouctomes Based on Launch Date"
-			<INSERT IMAGE - THEATER OUTCOMES VS LAUNCH>
+			![Theater_Outcomes_vs_Launch](kickstarter-analysis/resources/Theater_Outcomes_vs_Launch.png)
 
 In Chart 2, we can see the highest amount of successful campaigns launched in the summer months starting in May and progressively tapering by September.  It is noted that "Fever" launched in June and with further analysis, we have to take a look at another dataset of outcomes based on goals to see if there were any identifiable contributing factors on what otherwise is a great time period to launch a campaign.  In order to get the data needed another formula was required to count the number of successful, failed, and canceled plays displayed in the following Chart 3.
 
