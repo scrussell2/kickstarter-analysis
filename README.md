@@ -59,7 +59,7 @@ I did run into a few challenges in the "Module 1 Challenge".  In deliverable 1,
 
 #### Limitations of the Dataset
 
-The limitations of this dataset were with the 'Outcomes Based on Goals', as the goal increments went higher the potential for having data skewed also increased because of the overall sample size.  Given there is a great amount of data in the "Kickstarter_Challenge", as we narrowed the filters the total counts were also reduced.  Even though this is normal and the reality that theater plays will rarely reach those higher pledge goals, a strategic way to present the visual data may be to cap the incremental limit from '50,000 to more' to a lower threshold to account for any outliers and in the visual interpretation of the chart.
+The limitations of this dataset were with the 'Outcomes Based on Goals', as the goal increments went higher the potential for having data skewed also increased because of the overall sample size.  Given there is a great amount of data in the "Kickstarter_Challenge", as we narrowed the filters the total counts were also reduced.  Even though this is normal and the reality that theater plays will rarely reach those higher pledge goals, a strategic way to present the visual data may be to cap the incremental limit from '50,000 to more' to a lower threshold to account for any outliers and aid in the visual interpretation of the chart.
 
 #### Recommended tables or graphs
 
