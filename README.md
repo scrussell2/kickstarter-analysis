@@ -28,12 +28,13 @@ In Image 2, we can see the highest amount of successful campaigns launched in th
 
 **Image 3**: "Excel Formula COUNTIFS()"
 	
+	Examples:
 	Number Successful - Goal Less Than 1000
-		=COUNTIFS(Kickstarter!D:D,"<=1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
+		=COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
 	Number Failed - Goal Less Than 1000
-		=COUNTIFS(Kickstarter!D:D,"<=1000",Kickstarter!F:F,"failed",Kickstarter!R:R,"plays")
+		=COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"failed",Kickstarter!R:R,"plays")
 	Number Canceled - Goal Less Than 1000
-		=COUNTIFS(Kickstarter!D:D,"<=1000",Kickstarter!F:F,"canceled",Kickstarter!R:R,"plays")
+		=COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"canceled",Kickstarter!R:R,"plays")
 
 A range of goals was created that started with 1,000 or less, and increased by increments of 5,000 until we came to 50,000 or more.  The counts were collected per range and then percentages were assigned to give a clearer picture of successful campaign goal ranges displayed in Image 4.
 
